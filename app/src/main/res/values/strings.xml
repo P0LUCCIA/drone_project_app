@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">국방과학기술연구소</string>
+    <string name="drone_button">드론 조종</string>
+    <string name="delivery_button">현재 위치로 배송 받기</string>
 </resources>

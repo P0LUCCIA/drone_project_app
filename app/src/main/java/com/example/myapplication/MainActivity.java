@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
         Button drone = findViewById(R.id.drone);
         Button delivery = findViewById(R.id.delivery);
 
-        delivery.setOnClickListener(v -> {
-            Intent mlntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://naver.com"));
-            startActivity(mlntent);
-        });
         drone.setOnClickListener(v -> {
-            Intent mlntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://kakao.com"));
-            startActivity(mlntent);
+            Intent element= new Intent(Intent.ACTION_VIEW, Uri.parse("http://naver.com"));
+            startActivity(element);
+        });
+        delivery.setOnClickListener(v -> {
+            Intent element = new Intent(Intent.ACTION_VIEW, Uri.parse("http://kakao.com"));
+            startActivity(element);
         });
     }
 }
